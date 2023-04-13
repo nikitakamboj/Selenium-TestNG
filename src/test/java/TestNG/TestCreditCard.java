@@ -77,6 +77,7 @@ public class TestCreditCard {
 	@BeforeGroups(alwaysRun = true, groups = { "Sanity" })
 	public void testBeforeGroups() {
 		System.out.println("This will run before every group");
+		System.out.println("This will run before every group1");
 	}
 
 	@DataProvider(name = "CCUserData")

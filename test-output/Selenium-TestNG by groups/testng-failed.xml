@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium-TestNG by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-Integration(failed)">
+    <groups>
+      <run>
+        <include name="Integration"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNG.drop">
+        <methods>
+          <include name="sortListTest"/>
+        </methods>
+      </class> <!-- TestNG.drop -->
+    </classes>
+  </test> <!-- GRP-Integration(failed) -->
+</suite> <!-- Failed suite [Selenium-TestNG by groups] -->
